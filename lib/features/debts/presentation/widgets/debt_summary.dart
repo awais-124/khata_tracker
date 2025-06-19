@@ -24,8 +24,8 @@ class DebtSummary extends StatelessWidget {
             const SizedBox(height: 8),
             Text(
               totalBalance >= 0
-                  ? '+₹${totalBalance.toStringAsFixed(2)}'
-                  : '-₹${(-totalBalance).toStringAsFixed(2)}',
+                  ? '+ ${totalBalance.toStringAsFixed(2)}/-'
+                  : '- ${(-totalBalance).toStringAsFixed(2)}/-',
               style: TextStyle(
                 fontSize: 28,
                 fontWeight: FontWeight.bold,
