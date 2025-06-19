@@ -1,0 +1,25 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "khata-tracker",
+          "appId": "1:828400671833:android:b83be831796a404add6548",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "khata-tracker",
+          "configurations": {
+            "android": "1:828400671833:android:b83be831796a404add6548",
+            "ios": "1:828400671833:ios:97cec7a042974a50dd6548",
+            "macos": "1:828400671833:ios:97cec7a042974a50dd6548",
+            "web": "1:828400671833:web:5b866232bfb88dfedd6548",
+            "windows": "1:828400671833:web:af793aec2c2a3d09dd6548"
+          }
+        }
+      }
+    }
+  }
+}
